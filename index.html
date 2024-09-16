@@ -15,11 +15,12 @@
   <body>
     <div class="weather-app">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter a city..."
             required
+            id="search-form-input"
             class="search-form-input"
           />
           <input type="submit" value="Search" class="search-form-button" />
@@ -28,7 +29,7 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="weather-app-city">Sydney</h1>
+            <h1 class="weather-app-city" id="weather-app-city">Sydney</h1>
             <p class="weather-app-details">
               <span class="weather-app-details-day">Wednesday</span>
               <span class="weather-app-details-time">16:45</span>,
@@ -56,5 +57,6 @@
         <a href="" target="_blank">hosted on Netlify.</a>
       </footer>
     </div>
+    <script src="src/iindex.js"></script>
   </body>
 </html>
