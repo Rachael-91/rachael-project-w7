@@ -58,6 +58,11 @@ body {
   font-size: 16px;
 }
 
+.search-form-button:hover {
+  opacity: 0.6;
+  transition: ease-in-out;
+}
+
 main {
   padding: 30px;
 }
