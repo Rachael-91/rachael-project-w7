@@ -17,6 +17,11 @@ body {
   border-radius: 20px;
 }
 
+.weather-app-image {
+  width: 80px;
+  height: 80px;
+}
+
 .weather-app-city {
   margin: 0;
   font-optical-sizing: auto;
@@ -35,6 +40,7 @@ body {
 }
 
 .weather-app-temperature {
+  display: flex;
   font-size: 48px;
   font-weight: 500;
 }
